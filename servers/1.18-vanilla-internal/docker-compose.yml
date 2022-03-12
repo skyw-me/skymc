@@ -10,6 +10,7 @@ services:
       MEMORY: "4G"
       EULA: "TRUE"
       TYPE: "FABRIC"
+      VERSION: "1.18.1"
       ONLINE_MODE: "FALSE"
       MOTD: "Skyworks 1.18 Vanilla Minecraft Server"
 
