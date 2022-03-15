@@ -5,14 +5,14 @@ services:
       - ./data:/data:rw
 
     ports:
-      - 20001:25565
+      - 20000:25565
     environment:
-      MEMORY: "4G"
+      MEMORY: "6G"
       EULA: "TRUE"
       TYPE: "FABRIC"
       VERSION: "1.18.1"
       ONLINE_MODE: "FALSE"
-      MOTD: "Skyworks 1.18 Vanilla Minecraft Server"
+      MOTD: "Skyworks 1.18 Modded Minecraft Server"
 
     stdin_open: true
     tty: true
