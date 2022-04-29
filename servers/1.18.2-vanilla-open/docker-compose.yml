@@ -1,0 +1,20 @@
+services:
+  mc-server:
+    image: itzg/minecraft-server:latest
+    volumes:
+      - ./data:/data:rw
+
+    ports:
+      - 10001:25565
+    environment:
+      MEMORY: "4G"
+      EULA: "TRUE"
+      TYPE: "FABRIC"
+      VERSION: "1.18.2"
+      ONLINE_MODE: "FALSE"
+      MOTD: "Skyworks [Open] 1.18 Vanilla Minecraft Server"
+
+    stdin_open: true
+    tty: true
+
+    restart: unless-stopped

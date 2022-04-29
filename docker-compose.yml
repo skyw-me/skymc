@@ -10,3 +10,15 @@ services:
     extends:
       file: ./servers/1.18-vanilla-internal/docker-compose.yml
       service: mc-server
+
+  # 1.18.2 vanilla open
+  mc-server-1.18.2-vanilla-open:
+    extends:
+      file: ./servers/1.18.2-vanilla-open/docker-compose.yml
+      service: mc-server
+
+  # 1.18.2 modded open
+  mc-server-1.18.2-modded-open:
+    extends:
+      file: ./servers/1.18.2-modded-open/docker-compose.yml
+      service: mc-server
