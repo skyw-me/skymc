@@ -7,12 +7,14 @@ services:
     ports:
       - 20000:25565
     environment:
-      MEMORY: "6G"
+      MEMORY: "8G"
       EULA: "TRUE"
       TYPE: "FABRIC"
       VERSION: "1.18.1"
       ONLINE_MODE: "FALSE"
       MOTD: "Skyworks 1.18 Modded Minecraft Server"
+
+      USE_AIKAR_FLAGS: "true"
 
     stdin_open: true
     tty: true
