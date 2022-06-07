@@ -1,15 +1,15 @@
 services:
-  # 1.18 modded
-  mc-server-1.18-modded-internal:
-    extends:
-      file: ./servers/1.18-modded-internal/docker-compose.yml
-      service: mc-server
+  # # 1.18 modded
+  # mc-server-1.18-modded-internal:
+  #   extends:
+  #     file: ./servers/1.18-modded-internal/docker-compose.yml
+  #     service: mc-server
 
-  # 1.18 vanilla
-  mc-server-1.18-vanilla-internal:
-    extends:
-      file: ./servers/1.18-vanilla-internal/docker-compose.yml
-      service: mc-server
+  # # 1.18 vanilla
+  # mc-server-1.18-vanilla-internal:
+  #   extends:
+  #     file: ./servers/1.18-vanilla-internal/docker-compose.yml
+  #     service: mc-server
 
   # 1.18.2 vanilla open
   mc-server-1.18.2-vanilla-open:
